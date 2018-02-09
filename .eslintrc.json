@@ -108,16 +108,6 @@
     "no-path-concat": 1,
 
     // Prefer using arrow functions for callbacks
-    "prefer-arrow-callback": 1,
-
-    // Return inside each then() to create readable and reusable Promise chains.
-    // Forces developers to return console logs and http calls in promises. 
-    "promise/always-return": 2,
-
-    //Enforces the use of catch() on un-returned promises
-    "promise/catch-or-return": 2,
-
-    // Warn against nested then() or catch() statements
-    "promise/no-nesting": 1
+    "prefer-arrow-callback": 1
   }
 }
